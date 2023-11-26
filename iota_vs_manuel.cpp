@@ -1,5 +1,15 @@
 // Mehmet Cagri Aksoy
 
+/**
+ * @brief Compares the performance of std::iota and manual assignment in a single-core environment.
+ *
+ * This program measures the average time consumption of std::iota and manual assignment loops.
+ * It performs multiple tests and calculates the average time taken for each loop.
+ * The program then compares the performance of the two loops and prints the results.
+ *
+ * @return int The exit status of the program.
+ */
+
 #include <algorithm>
 #include <iostream>
 #include <numeric>

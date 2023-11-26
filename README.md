@@ -26,6 +26,27 @@ g++ filename.cpp
 
 If you would like to contribute to this program, you can fork the GitHub repository and submit a pull request with your changes.
 
+## Environment
+
+- Environment: Ubuntu 22.04.3 LTS
+- Compiler(s):
+  -- gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+- CPU: AMD Ryzen 3 3200U
+
+## Results Analyzing
+
+### Count Up Loop vs Count Down Loop Performance comparison
+
+To see the performance difference between count up to SIZE and count down to zero loops
+lease run the compiler without any optimization flags! -O0
+`gcc -O0 gcc_loop_countUp_vs_countDown.c -o gcc_loop_countUp_vs_countDown`
+Otherwise, you will see the same performance for both loops or even count up loop will be faster.
+
+Due to my tests:
+If there is no compiler optimization works, count down loop is faster than count up loop.
+I have experienced at most `8%` performance difference in gcc.
+I have experienced at most `5%` performance difference in g++.
+
 ## License
 
 This program is licensed under the MIT License. See the LICENSE file for more information.

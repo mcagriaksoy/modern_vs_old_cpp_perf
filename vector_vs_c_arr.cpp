@@ -1,5 +1,13 @@
 // Creator: Mehmet Cagri Aksoy
 
+/**
+ * @brief Compares the performance of a C array and a vector in a single-core performance test.
+ *
+ * This program measures the time taken to increment each element of a C array and a vector using a loop.
+ * It performs the test multiple times and calculates the average time consumption for each loop.
+ * Finally, it compares the performance of the C array and the vector and prints the results.
+ */
+
 #include <algorithm>
 #include <iostream>
 #include <vector>

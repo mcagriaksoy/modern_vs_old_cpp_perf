@@ -1,4 +1,13 @@
-// Creator: Mehmet Cagri Aksoy
+// Mehmet Cagri Aksoy
+
+/**
+ * @brief Compares the performance of range-based loop and std::transform loop on a vector of integers.
+ *
+ * This program measures the average time consumption of both range-based loop and std::transform loop
+ * for a given number of tests. It then compares the performance of the two loops and prints the results.
+ *
+ * @return int The exit status of the program.
+ */
 
 #include <algorithm>
 #include <iostream>

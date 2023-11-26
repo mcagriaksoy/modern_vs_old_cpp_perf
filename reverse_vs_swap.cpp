@@ -1,5 +1,15 @@
 // Mehmet Cagri Aksoy
 
+/**
+ * @brief Compares the performance of std::reverse and std::swap in a single-core environment.
+ *
+ * This program measures the average time consumption of performing reverse and swap operations on a vector of strings.
+ * It compares the performance of using std::reverse and std::swap in a loop, and calculates the performance difference percentage.
+ * The program outputs the average time consumption for each operation, as well as the performance comparison results.
+ *
+ * @return int The exit status of the program.
+ */
+
 #include <algorithm>
 #include <iostream>
 

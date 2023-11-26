@@ -1,5 +1,15 @@
 // Mehmet Cagri Aksoy
 
+/**
+ * @brief Compares the performance of std::fill and manual assignment in a single-core performance test.
+ *
+ * This program measures the average time consumption of two different approaches to fill a vector with a string.
+ * It performs multiple tests and calculates the average time taken for each approach.
+ * It then compares the performance of the two approaches and prints the results.
+ *
+ * @return int The exit status of the program.
+ */
+
 #include <algorithm>
 #include <iostream>
 

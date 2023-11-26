@@ -1,5 +1,13 @@
 // Creator: Mehmet Cagri Aksoy
 
+/**
+ * @brief Compares the performance of range-based loop and traditional loop on a vector of integers.
+ *
+ * This program measures the time taken by both range-based loop and traditional loop to increment each element of a vector.
+ * It performs multiple tests and calculates the average time consumption for each loop type.
+ * Finally, it compares the performance of the two loop types and prints the results.
+ */
+
 #include <algorithm>
 #include <iostream>
 #include <vector>
