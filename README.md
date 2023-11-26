@@ -13,16 +13,6 @@ To use this program, you will need to have a C++ compiler installed on your syst
 
 Once you have a C++ compiler installed, you can download the source code for this program from the GitHub repository. You can then compile the source code using your C++ compiler.
 
-## Usage
-
-To use this program, simply run the files with extension .cpp. The results will be printed out to the console.
-
-```
-g++ filename.cpp
-
-// In Linux systems:
-./a.out
-```
 
 If you would like to contribute to this program, you can fork the GitHub repository and submit a pull request with your changes.
 
@@ -42,10 +32,22 @@ lease run the compiler without any optimization flags! -O0
 `gcc -O0 gcc_loop_countUp_vs_countDown.c -o gcc_loop_countUp_vs_countDown`
 Otherwise, you will see the same performance for both loops or even count up loop will be faster.
 
+
 Due to my tests:
 If there is no compiler optimization works, count down loop is faster than count up loop.
 I have experienced at most `8%` performance difference in gcc.
 I have experienced at most `5%` performance difference in g++.
+
+## Usage
+
+To use this program, simply run the files with extension .cpp. The results will be printed out to the console.
+
+```
+g++ -O0 filename.cpp -o your_binary_name
+
+// In Linux distros:
+./your_binary_name
+```
 
 ## License
 
